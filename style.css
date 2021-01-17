@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:sans-serif;
+}
+b {
+    color: rgb(240, 41, 41);
+}
+hr {
+    opacity: .4;
+}
+header img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 4px solid rgb(33, 236, 33);
+    margin-top: 25px;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../Curriculo/img/banner2.jpg);
+    background-size: cover;
+    height: 150px;
+    text-align: center;
+}
+header h1 {
+    font-size: 45px;
+    color: #ffFFFf;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 100px 0px;
+}
+ol {
+    list-style: none;
+}
+.profissao {
+    color: #d6d2d2;
+}
+.sobre {
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 30px;
+}
+.sobre h2 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #808080;
+}
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.skills {
+    margin-top: 50px;
+}
+.skills h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #808080;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.skills figure{
+    display: flex;
+    justify-content: space-around;
+}
+.skills .image {
+    text-align: center;
+    color: #808080;
+    z-index: 1;
+}
+.image img {
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    margin-top: 5px;
+}
+.hr1 {
+    margin-top: -70px;
+    opacity: .4;
+}
+.formation {
+    margin-top: 130px;   
+}
+.formation h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #808080;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.formation p {
+    width: 60%;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.content h3{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.EM {
+    color: rgb(28, 224, 28);
+}
+.Stck {
+    color: rgb(240, 41, 41);
+}
+.date {
+    display: flex;
+    justify-content: space-around;
+}
+.display-course {
+    display: flex;
+}
+.display-course hr {
+    flex-direction: column;
+}
+.courses h1 {
+    color: #808080;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.courses ol {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #1c1c1c;
+}
+.hr-course {
+    margin: 10px 10px;
+}
+.courses li {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #fff ;
+    background-color: rgb(23, 158, 45);
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 3px 0px;
+    padding-left: 10px;
+}
+.sub {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+    list-style: none;
+}
+.sub li {
+    font-size: 15px;
+    color: black;
+    background: none;
+}
+/* Outros */
+/* Idiomas */
+.languages {
+    background-color: #6495ED;
+    margin-top: 10px;
+    width: 600px;
+    height: 350px;
+}
+.names {
+    display: flex;
+    justify-content: space-around;
+    color: #808080;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+}
+.lang_1 img{
+    width: 130PX;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+.LANG_2 {
+    text-align: center;
+}
+.lang_2 img {
+    margin-left: 20%;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+/* Hobbies */
+.hobbies {
+    display: flex;
+    background-color: #00FA9A;
+    margin-left: 421px;
+    margin-top: -350px;
+    text-align: center;
+    width: 480px;
+    height: 350px;
+    font-size: 65px;
+    color: #ffff;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.hobbies .ho_1 .ho_2 {
+    display: none;
+}
+.hobbies i {
+    margin: 90px 40px 5px 10px;
+}
+/* Contato */
+.contato {
+    background-color: rgb(238, 73, 73);
+    width: 480px;
+    height: 350px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: -350px;
+    font-size: 19px;
+}
+.contato a{
+    text-decoration: none;
+    color: #fff;
+}
+.contato i {
+    color: rgb(255, 187, 0);
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.linkd{
+    margin-top: 100px;
+}
